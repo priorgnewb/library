@@ -46,7 +46,9 @@ create database library_db
 
 Запустить приложение `Run -> Run -> Edit Configurations -> Add new configuration -> Tomcat Server (Local)`
 
-(добавление артефактов приложения будет описано позже)
+Deployment -> Add -> Artifact -> library:war exploded -> Ok
+
+Удалить содержимое поля Application Context -> Apply -> Run
 
 **4.3. Тестирование приложения**
 
